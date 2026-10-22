@@ -2,6 +2,11 @@
 
 All notable changes to DeadLinks. Versioning follows [Semantic Versioning](https://semver.org/); the version lives in `Directory.Build.props`.
 
+## [1.1.1] - 2026-10-22
+
+### Fixed
+- Light theme: text on primary buttons (Scan, Remove selected) was dark on the blue accent; it is now white. Screenshots refreshed without the baked-in window border.
+
 ## [1.1.0] - 2026-10-22
 
 First open-source release (MIT). Earlier builds were a paid product; this release removes licensing entirely, so every feature is free.
