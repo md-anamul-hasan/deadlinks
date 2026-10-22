@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DeadLinks.csproj" />
+  <Project Path="DeadLinks.Tests/DeadLinks.Tests.csproj" />
+</Solution>
