@@ -11,14 +11,14 @@
     <!-- ══════════════════════════════════════════════════════════
          SURFACE COLORS
     ══════════════════════════════════════════════════════════ -->
-    <Color x:Key="c.SurfaceBase">#F4F6FA</Color>
-    <Color x:Key="c.SurfaceOverlay">#EDF0F6</Color>
+    <Color x:Key="c.SurfaceBase">#F8FAFC</Color>
+    <Color x:Key="c.SurfaceOverlay">#F1F5F9</Color>
     <Color x:Key="c.SurfaceRaised">#FFFFFF</Color>
     <Color x:Key="c.SurfaceSunken">#FFFFFF</Color>
-    <Color x:Key="c.SurfaceInteractive">#E8EDF5</Color>
-    <Color x:Key="c.SurfaceSelected">#E6EEFF</Color>
-    <Color x:Key="c.SurfaceBorder">#E3E8F0</Color>
-    <Color x:Key="c.SurfaceBorderStrong">#C5CEDB</Color>
+    <Color x:Key="c.SurfaceInteractive">#E2E8F0</Color>
+    <Color x:Key="c.SurfaceSelected">#DBEAFE</Color>
+    <Color x:Key="c.SurfaceBorder">#E2E8F0</Color>
+    <Color x:Key="c.SurfaceBorderStrong">#CBD5E1</Color>
 
     <SolidColorBrush x:Key="SurfaceBase"         Color="{StaticResource c.SurfaceBase}"/>
     <SolidColorBrush x:Key="SurfaceOverlay"      Color="{StaticResource c.SurfaceOverlay}"/>
@@ -32,15 +32,15 @@
     <!-- ══════════════════════════════════════════════════════════
          ACCENT / BRAND COLORS
     ══════════════════════════════════════════════════════════ -->
-    <Color x:Key="c.AccentPrimary">#2563EB</Color>
-    <Color x:Key="c.AccentPrimaryHover">#1D4FD8</Color>
-    <Color x:Key="c.AccentPrimaryMuted">#182563EB</Color>
+    <Color x:Key="c.AccentPrimary">#1D4ED8</Color>
+    <Color x:Key="c.AccentPrimaryHover">#1E40AF</Color>
+    <Color x:Key="c.AccentPrimaryMuted">#1A1D4ED8</Color>
     <Color x:Key="c.AccentForge">#C2410C</Color>
     <Color x:Key="c.AccentForgeHover">#9A3412</Color>
     <Color x:Key="c.AccentForgeMuted">#15C2410C</Color>
 
-    <Color x:Key="c.AccentViolet">#7C3AED</Color>
-    <Color x:Key="c.AccentVioletMuted">#157C3AED</Color>
+    <Color x:Key="c.AccentViolet">#0F766E</Color>
+    <Color x:Key="c.AccentVioletMuted">#1A0F766E</Color>
     <SolidColorBrush x:Key="AccentViolet"      Color="{StaticResource c.AccentViolet}"/>
     <SolidColorBrush x:Key="AccentVioletMuted" Color="{StaticResource c.AccentVioletMuted}"/>
 
@@ -60,8 +60,8 @@
     <Color x:Key="c.StatusWarningMuted">#18D97706</Color>
     <Color x:Key="c.StatusSuccess">#16A34A</Color>
     <Color x:Key="c.StatusSuccessMuted">#1816A34A</Color>
-    <Color x:Key="c.StatusInfo">#2563EB</Color>
-    <Color x:Key="c.StatusInfoMuted">#182563EB</Color>
+    <Color x:Key="c.StatusInfo">#1D4ED8</Color>
+    <Color x:Key="c.StatusInfoMuted">#1A1D4ED8</Color>
 
     <SolidColorBrush x:Key="StatusError"        Color="{StaticResource c.StatusError}"/>
     <SolidColorBrush x:Key="StatusErrorMuted"   Color="{StaticResource c.StatusErrorMuted}"/>
@@ -77,9 +77,9 @@
     ══════════════════════════════════════════════════════════ -->
     <Color x:Key="c.TextPrimary">#0F172A</Color>
     <Color x:Key="c.TextSecondary">#334155</Color>
-    <Color x:Key="c.TextTertiary">#6B7A90</Color>
+    <Color x:Key="c.TextTertiary">#64748B</Color>
     <Color x:Key="c.TextInverse">#FFFFFF</Color>
-    <Color x:Key="c.TextLink">#2563EB</Color>
+    <Color x:Key="c.TextLink">#1D4ED8</Color>
 
     <SolidColorBrush x:Key="TextPrimary"   Color="{StaticResource c.TextPrimary}"/>
     <SolidColorBrush x:Key="TextSecondary" Color="{StaticResource c.TextSecondary}"/>
@@ -116,10 +116,10 @@
     <!-- ══════════════════════════════════════════════════════════
          RADII & SPACING DIMENSIONS
     ══════════════════════════════════════════════════════════ -->
-    <CornerRadius x:Key="Radius.Sm">4</CornerRadius>
-    <CornerRadius x:Key="Radius.Md">8</CornerRadius>
-    <CornerRadius x:Key="Radius.Lg">12</CornerRadius>
-    <CornerRadius x:Key="Radius.Window">8</CornerRadius>
+    <CornerRadius x:Key="Radius.Sm">6</CornerRadius>
+    <CornerRadius x:Key="Radius.Md">10</CornerRadius>
+    <CornerRadius x:Key="Radius.Lg">14</CornerRadius>
+    <CornerRadius x:Key="Radius.Window">10</CornerRadius>
     <CornerRadius x:Key="Radius.Full">4</CornerRadius>
 
     <Thickness x:Key="Padding.Card">16</Thickness>

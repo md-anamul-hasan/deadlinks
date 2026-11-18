@@ -11,14 +11,14 @@
     <!-- ══════════════════════════════════════════════════════════
          SURFACE COLORS
     ══════════════════════════════════════════════════════════ -->
-    <Color x:Key="c.SurfaceBase">#0E1117</Color>
-    <Color x:Key="c.SurfaceOverlay">#12161D</Color>
-    <Color x:Key="c.SurfaceRaised">#161B22</Color>
-    <Color x:Key="c.SurfaceSunken">#0F1319</Color>
-    <Color x:Key="c.SurfaceInteractive">#222A35</Color>
-    <Color x:Key="c.SurfaceSelected">#1E2F52</Color>
-    <Color x:Key="c.SurfaceBorder">#262D38</Color>
-    <Color x:Key="c.SurfaceBorderStrong">#3A4452</Color>
+    <Color x:Key="c.SurfaceBase">#0B1120</Color>
+    <Color x:Key="c.SurfaceOverlay">#0D1424</Color>
+    <Color x:Key="c.SurfaceRaised">#111827</Color>
+    <Color x:Key="c.SurfaceSunken">#070B14</Color>
+    <Color x:Key="c.SurfaceInteractive">#1C2638</Color>
+    <Color x:Key="c.SurfaceSelected">#13254A</Color>
+    <Color x:Key="c.SurfaceBorder">#273247</Color>
+    <Color x:Key="c.SurfaceBorderStrong">#334155</Color>
 
     <SolidColorBrush x:Key="SurfaceBase"         Color="{StaticResource c.SurfaceBase}"/>
     <SolidColorBrush x:Key="SurfaceOverlay"      Color="{StaticResource c.SurfaceOverlay}"/>
@@ -32,15 +32,15 @@
     <!-- ══════════════════════════════════════════════════════════
          ACCENT / BRAND COLORS
     ══════════════════════════════════════════════════════════ -->
-    <Color x:Key="c.AccentPrimary">#4C8DFF</Color>
-    <Color x:Key="c.AccentPrimaryHover">#6BA0FF</Color>
-    <Color x:Key="c.AccentPrimaryMuted">#184C8DFF</Color>
+    <Color x:Key="c.AccentPrimary">#3B82F6</Color>
+    <Color x:Key="c.AccentPrimaryHover">#60A5FA</Color>
+    <Color x:Key="c.AccentPrimaryMuted">#293B82F6</Color>
     <Color x:Key="c.AccentForge">#F97316</Color>
     <Color x:Key="c.AccentForgeHover">#FB923C</Color>
     <Color x:Key="c.AccentForgeMuted">#15F97316</Color>
 
-    <Color x:Key="c.AccentViolet">#8B5CF6</Color>
-    <Color x:Key="c.AccentVioletMuted">#158B5CF6</Color>
+    <Color x:Key="c.AccentViolet">#14B8A6</Color>
+    <Color x:Key="c.AccentVioletMuted">#2614B8A6</Color>
     <SolidColorBrush x:Key="AccentViolet"      Color="{StaticResource c.AccentViolet}"/>
     <SolidColorBrush x:Key="AccentVioletMuted" Color="{StaticResource c.AccentVioletMuted}"/>
 
@@ -60,8 +60,8 @@
     <Color x:Key="c.StatusWarningMuted">#18FBBF24</Color>
     <Color x:Key="c.StatusSuccess">#4ADE80</Color>
     <Color x:Key="c.StatusSuccessMuted">#184ADE80</Color>
-    <Color x:Key="c.StatusInfo">#4C8DFF</Color>
-    <Color x:Key="c.StatusInfoMuted">#184C8DFF</Color>
+    <Color x:Key="c.StatusInfo">#3B82F6</Color>
+    <Color x:Key="c.StatusInfoMuted">#293B82F6</Color>
 
     <SolidColorBrush x:Key="StatusError"        Color="{StaticResource c.StatusError}"/>
     <SolidColorBrush x:Key="StatusErrorMuted"   Color="{StaticResource c.StatusErrorMuted}"/>
@@ -75,11 +75,11 @@
     <!-- ══════════════════════════════════════════════════════════
          TEXT COLORS
     ══════════════════════════════════════════════════════════ -->
-    <Color x:Key="c.TextPrimary">#E6EAF0</Color>
-    <Color x:Key="c.TextSecondary">#B4BECC</Color>
-    <Color x:Key="c.TextTertiary">#8091A6</Color>
-    <Color x:Key="c.TextInverse">#0B1220</Color>
-    <Color x:Key="c.TextLink">#6BA0FF</Color>
+    <Color x:Key="c.TextPrimary">#F1F5F9</Color>
+    <Color x:Key="c.TextSecondary">#CBD5E1</Color>
+    <Color x:Key="c.TextTertiary">#94A3B8</Color>
+    <Color x:Key="c.TextInverse">#020617</Color>
+    <Color x:Key="c.TextLink">#2DD4BF</Color>
 
     <SolidColorBrush x:Key="TextPrimary"   Color="{StaticResource c.TextPrimary}"/>
     <SolidColorBrush x:Key="TextSecondary" Color="{StaticResource c.TextSecondary}"/>
@@ -116,10 +116,10 @@
     <!-- ══════════════════════════════════════════════════════════
          RADII & SPACING DIMENSIONS
     ══════════════════════════════════════════════════════════ -->
-    <CornerRadius x:Key="Radius.Sm">4</CornerRadius>
-    <CornerRadius x:Key="Radius.Md">8</CornerRadius>
-    <CornerRadius x:Key="Radius.Lg">12</CornerRadius>
-    <CornerRadius x:Key="Radius.Window">8</CornerRadius>
+    <CornerRadius x:Key="Radius.Sm">6</CornerRadius>
+    <CornerRadius x:Key="Radius.Md">10</CornerRadius>
+    <CornerRadius x:Key="Radius.Lg">14</CornerRadius>
+    <CornerRadius x:Key="Radius.Window">10</CornerRadius>
     <CornerRadius x:Key="Radius.Full">4</CornerRadius>
 
     <Thickness x:Key="Padding.Card">16</Thickness>
