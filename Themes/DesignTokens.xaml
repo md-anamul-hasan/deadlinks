@@ -79,7 +79,7 @@
     <Color x:Key="c.TextSecondary">#CBD5E1</Color>
     <Color x:Key="c.TextTertiary">#94A3B8</Color>
     <Color x:Key="c.TextInverse">#020617</Color>
-    <Color x:Key="c.TextLink">#2DD4BF</Color>
+    <Color x:Key="c.TextLink">#60A5FA</Color>
 
     <SolidColorBrush x:Key="TextPrimary"   Color="{StaticResource c.TextPrimary}"/>
     <SolidColorBrush x:Key="TextSecondary" Color="{StaticResource c.TextSecondary}"/>
