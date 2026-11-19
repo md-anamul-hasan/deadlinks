@@ -2,6 +2,11 @@
 
 All notable changes to DeadLinks. Versioning follows [Semantic Versioning](https://semver.org/); the version lives in `Directory.Build.props`.
 
+## [1.2.0] - 2026-11-19
+
+### Changed
+- New look: Technical Glassmorphism v1.0, the design system of mdanamulhasan.com. Slate canvas, Precision Cobalt accent with PLM teal highlights in dark mode, hairline borders, crisp 6/10/14 px corners, restrained shadows.
+
 ## [1.1.1] - 2026-10-22
 
 ### Fixed
